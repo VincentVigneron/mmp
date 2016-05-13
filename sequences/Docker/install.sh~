@@ -1,9 +1,0 @@
-docker pull ubuntu:14.04
-cd gecode-4.0.0
-docker build -t ubuntu:gecode .
-cd ..
-cd GSPMCP
-docker build -t ubuntu:GSPMCP .
-cd CPSM
-docker build -t ubuntu:CPSM .
-cd ..
